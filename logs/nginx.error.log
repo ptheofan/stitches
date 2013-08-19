@@ -1,0 +1,2 @@
+2013/08/19 19:52:35 [error] 94452#0: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: stitches.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "stitches.dev"
+2013/08/19 19:56:05 [error] 94599#0: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: stitches.dev, request: "GET /index.html HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "stitches.dev"
