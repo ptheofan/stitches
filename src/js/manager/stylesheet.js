@@ -12,9 +12,10 @@ define([
     "wrap/jquery",
     "stylesheet/css",
     "stylesheet/less",
-    "stylesheet/scss"
+    "stylesheet/scss",
+    "stylesheet/sass"
 ],
-function ($, CssStylesheet, LessStylesheet, ScssStylesheet) {
+function ($, CssStylesheet, LessStylesheet, ScssStylesheet, SassStylesheet) {
 
     "use strict";
 
@@ -22,7 +23,8 @@ function ($, CssStylesheet, LessStylesheet, ScssStylesheet) {
     var managers = {
         css: CssStylesheet,
         less: LessStylesheet,
-        scss: ScssStylesheet
+        scss: ScssStylesheet,
+        sass: SassStylesheet
     };
 
     // **Module definition**

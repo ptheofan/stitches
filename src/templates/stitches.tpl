@@ -90,7 +90,7 @@
                                 </div>
 
                                 <div class="control-group">
-                                    <label class="control-label">CSS/LESS/SCSS</label>
+                                    <label class="control-label">CSS/LESS/SCSS/SASS</label>
                                     <div class="controls">
                                         <label class="radio inline">
                                             <input name="stylesheet" type="radio" value="css"/> CSS
@@ -100,6 +100,9 @@
                                         </label>
                                         <label class="radio inline">
                                             <input name="stylesheet" type="radio" value="scss"/> SCSS
+                                        </label>
+                                        <label class="radio inline">
+                                            <input name="stylesheet" type="radio" value="sass"/> SASS
                                         </label>
                                     </div>
                                 </div>
