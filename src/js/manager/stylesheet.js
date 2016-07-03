@@ -11,16 +11,20 @@
 define([
     "wrap/jquery",
     "stylesheet/css",
-    "stylesheet/less"
+    "stylesheet/less",
+    "stylesheet/scss",
+    "stylesheet/sass"
 ],
-function ($, CssStylesheet, LessStylesheet) {
+function ($, CssStylesheet, LessStylesheet, ScssStylesheet, SassStylesheet) {
 
     "use strict";
 
     // **Canvas stylesheet managers**
     var managers = {
         css: CssStylesheet,
-        less: LessStylesheet
+        less: LessStylesheet,
+        scss: ScssStylesheet,
+        sass: SassStylesheet
     };
 
     // **Module definition**

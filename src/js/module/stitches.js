@@ -14,7 +14,7 @@
 define([
     "wrap/jquery",
     "wrap/modernizr",
-    "../../../libs/store/store",
+    "../../libs/store/store",
     "util/util",
     "util/templates",
     "manager/file",
@@ -34,7 +34,7 @@ function($, Modernizr, store, util, templates, fileManager, layoutManager, style
         prefix: "sprite", // default stylesheet class prefix
         padding: 5, // default padding around sprites in pixels
         uri: false, // whether or not to include the data-uri image (quite large)
-        stylesheet: "css" // either css or less at the moment
+        stylesheet: "scss" // either css, less or scss at the moment
     };
 
     /**
